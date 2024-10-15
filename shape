@@ -1,0 +1,24 @@
+import turtle as trtl
+
+painter = trtl.Turtle()
+
+
+for num in range(4):
+  painter.forward(50)
+  painter.right(90)
+
+for num in range(8):
+  painter.forward(80)
+  painter.right(45)
+
+painter.shape("circle")
+for num in range(18):
+  painter.stamp()
+  painter.forward(20)
+  painter.right(20)
+
+
+  
+
+wn = trtl.Screen()
+wn.mainloop()
